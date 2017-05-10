@@ -12,6 +12,7 @@ BASE_URL = 'https://www.mobcrush.com/api/'
 
 def _req(endpoint):
     """Sends a GET request to the API endpoint.
+
     :param endpoint: Endpoint to query.
     :type method: str
     :return: Parsed JSON object.
@@ -24,6 +25,7 @@ def _req(endpoint):
 
 def streamer(streamer):
     """Fetches streamer from api from username. Usernames must match the url of the streamer
+
     :param streamer: Streamer's username to query.
     :type method: str
     :return: mobcrush.Streamer.
@@ -35,6 +37,7 @@ def streamer(streamer):
 
 class User:
     """User class of the mobcrush api.
+
     :param username: Username of the user.
     :type username: str
     :param password: Password of the user. 
@@ -47,7 +50,7 @@ class User:
 
     def login(self):
         """
-        Fetches login info for the user
+        Logs the user into the mobcrush API
         """
         params = {'username': self.username, 'password': self.password}
         self.ses = requests.session()
@@ -60,6 +63,7 @@ class User:
     def say(chatroomid, msg):
         """
         Sends message to the specified chatroom id.
+
         :param: chatroomid: ID of the Mobcrush chatroom to send to
         :type chatroomid: str
         :param msg: Message to send

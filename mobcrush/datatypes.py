@@ -9,6 +9,7 @@ Datatypes for the Mobcrush API.
 
 class Game:
     """Class for mobcrush games
+
     :param data: Data of the game
     :type data: dict
     """
@@ -35,6 +36,7 @@ class Game:
 
 class Broadcast:
     """Class for mobcrush broadcasts
+
     :param data: Data of the broadcast
     :type data: dict
     """
@@ -117,6 +119,7 @@ class Broadcast:
 
 class Streamer:
     """Class for streamers
+
     :param data: Data of the streamer
     :type data: dict
     """

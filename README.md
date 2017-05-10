@@ -7,6 +7,7 @@ Currently has minimal functionality, and should be considered as an **Alpha**.
 ```python
 >>> import mobcrush
 >>> client = mobcrush.User('USERNAME', 'PASSWORD') # Login to the mobcrush API
+>>> client.login()
 >>> client.say('ChatroomID', 'This is my cool message!') #Limited functionality
 >>> SpiesWithin = mobcrush.streamer('SpiesWithin') # Query a streamer
 >>> SpiesWithin.name
