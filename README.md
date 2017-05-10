@@ -24,6 +24,7 @@ False
 ```
 ## Documentation
 Documentation can be found at [documentation][doc].
+
 [doc]: http://mobcrush.rtfd.org/en/latest
 
 To build it yourself, do the following:
