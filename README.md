@@ -23,7 +23,7 @@ False
 22
 ```
 ## Documentation
-Documentation can be found at [documentation][doc].
+Documentation can be found [here][doc].
 
 [doc]: http://mobcrush.rtfd.org/en/latest
 
