@@ -13,6 +13,7 @@ BASE_URL = 'https://www.mobcrush.com/api/'
 def cache(*args, **kwargs):
     """ Caches the response using requests-cache -- Should only be called once"""
     requests_cache.install_cache(*args, **kwargs)
+
 def _req(endpoint):
     """Sends a GET request to the API endpoint.
 
