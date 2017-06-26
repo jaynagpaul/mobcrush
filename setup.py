@@ -9,7 +9,7 @@ setup(
     author_email="spieswithin@gmail.com",
     url="https://github.com/jaynagpaul/mobcrush",
     packages=["mobcrush"],
-    install_requires=["requests"],
+    install_requires=["requests", "requests-cache"],
     setup_requires=["pytest-runner"],
     tests_require=["pytest"],
     license="MIT"
